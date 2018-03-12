@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>Fullstack</title>
+	<link rel="stylesheet" href="./stylesheets/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+<header>Welcome!</header>
+
+<main>
+
+	<form id="search">
+		<button id="getBtn">Get hosts</button> 
+		<input id="hostId" type="text" placeholder="Leave empty to get all">
+		<br>
+		<button id="searchBtn">Search hosts</button> 
+		<input id="searchText" type="text" placeholder="Enter search value">
+		<br>
+		<button id="addBtn">Add host</button> 
+		<input id="createHostId" type="text" placeholder="enter host id">
+		<input id="hostName" type="text" placeholder="Enter host name">
+		<br>
+		<button id="deleteBtn">Delete host</button> <input id="deleteId" type="text" placeholder="enter host id">
+		<div id="results"></div>
+	</form>
+	<nav>
+		<ul>
+			<li>Map view</li>
+			<li>Grid view</li>
+		</ul>
+	</nav>
+	
+	<div id="results">
+
+	</div>
+		
+
+</main>
+
+	
+	<script async defer type="text/javascript" src="./js/app.js"></script>
+</body>
+</html>
